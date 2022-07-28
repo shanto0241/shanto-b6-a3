@@ -45,7 +45,7 @@
 							<div class="w-5 h-1 bg-gray-600 mb-1"></div>
 							<div class="w-5 h-1 bg-gray-600 mb-1"></div>
 							<div class="w-5 h-1 bg-gray-600 "></div>
-							<div class="absolute top-16 -right-full h-screen md:h-fit w-6/12 md:w-4/12 bg-white border opacity-0
+							<div class="absolute top-16 -right-0 h-screen md:h-fit w-6/12 md:w-4/12 bg-white border opacity-0
 							group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
 								<ul class="flex flex-col items-center w-full text-base cursor-pointer pt-10">
 									<li class="hover:bg-gray-200 py-4 px-6 w-full">Home</li>
@@ -56,9 +56,9 @@
 									
 								</ul>
 								<hr>
-								<ul class="flex md:hidden gap-2 mt-5">
-									<li class="mx-5 text-xl hover:text-white hover:bg-primary rounded ring-2 py-2 px-6 w-full cursor-pointer">Register</li>
-									<li class="mx-5 text-xl hover:text-white hover:bg-primary rounded ring-2 py-2 px-6 w-full cursor-pointer">Login</li>
+								<ul class="grid md:hidden mt-5 gap-y-5">
+									<li class="mx-10 text-xl hover:text-white hover:bg-primary rounded ring-2 py-2 px-6  cursor-pointer">Register</li>
+									<li class="mx-10 text-xl hover:text-white hover:bg-primary rounded ring-2 py-2 px-6  cursor-pointer">Login</li>
 								</ul>
 							</div>
     				</button>
@@ -71,8 +71,9 @@
 		</header>
 
 		<main>
-			<section class="w-10/12 m-auto">
-				<div class="text-center p-3 my-5">
+			<!-- Discover courses Dection -->
+			<section class="container m-auto mb-10">
+				<div class="text-center p-3 my-10">
 					<h1 class="font-mono font-semibold text-3xl tracking-wider">Discover Our Popular Courses</h1>
 					<p class="mt-4 text-xl text-gray-600 px-4 font-serif">With the rapid changes in science and technology,
 						 there are different kinds of online courses that are available for the students. Here are some courses that will thrive in 2023.</p>
@@ -123,6 +124,43 @@
 						</div>
 					</div>
 					
+				</div>
+				<div class="my-10 text-center">
+					<button class="text-primary text-xl px-6 py-2 rounded transition-all hover:bg-primary hover:text-white ring-2">See All Courses</button>
+				</div>
+			</section>
+
+			<!-- Explore Institute section  -->
+			<section class="container m-auto mb-10">
+				<div class="grid gap-5 md:flex">
+					<img class=" w-full h-64 md:h-96" src="./assets/working.png" alt="">
+					<div class="grid text-center md:text-start  px-3 mx-5 pt-8">
+						<h1 class="font-mono font-semibold text-2xl tracking-wider">Explore the e-Learning Institute</h1>
+						<p class="pt-3 text-gray-700">You may find yourself asking: <br>
+							 Is EduInc a good Institute to get into? <br>
+							  In this article,
+							 we want to give you the full low-down on what a course in EduInc entails, from the skills 
+							 you need to make it as a proffessional,
+							 to the salaries you can expect to earn and whether or not you're a good fit for any rewarding and impactful role.</p>
+						<div class="mt-5 grid grid-cols-3 gap-1 text-center md:text-start">
+							<div>
+								<h1 class="text-2xl font-semibold">3.2K+</h1>
+								<p>Online Courses</p>
+							</div>
+							<div>
+								<h1 class="text-2xl font-semibold">6000</h1>
+								<p>Expert Mentor</p>
+							</div>
+							<div>
+								<h1 class="text-2xl font-semibold">8K+</h1>
+								<p>Reviews</p>
+							</div>
+							<div class="my-10 text-center md:text-start">
+								<button class="text-primary px-6 py-2 rounded transition-all hover:bg-primary hover:text-white ring-2">More</button>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
