@@ -23,7 +23,7 @@
 	</script>
 		<title>EduInc</title>
 </head>
-<body class="">
+<body id="home">
 		<nav class=" py-3 bg-white shadow-lg">
 			<div class="container m-auto flex justify-between items-center">
 				<div class="flex items-center gap-5 ">
@@ -32,11 +32,21 @@
 				</div>
 				<div class="">
 					<ul class="hidden lg:flex cursor-pointer gap-6 text-xl text-gray-600">
-						<li class="hover:text-primary">Home</li>
-						<li class="hover:text-primary">Courses</li>
-						<li class="hover:text-primary">Deals</li>
-						<li class="hover:text-primary">Success</li>
-						<li class="hover:text-primary">Contact</li>
+						<li class="hover:text-primary">
+							<a href="#home">Home</a>
+						</li>
+						<li class="hover:text-primary">
+							<a href="#courses">Courses</a>
+						</li>
+						<li class="hover:text-primary">
+							<a href="#deals">Deals</a>
+						</li>
+						<li class="hover:text-primary">
+							<a href="#success">Success</a>
+						</li>
+						<li class="hover:text-primary">
+							<a href="contact">Contact</a>
+						</li>
 					</ul>
 				</div>
 				<div>
@@ -66,13 +76,13 @@
 			
 			</div>
 		</nav>
-		<header>
+		<header class="h-96 bg-primary" >
 
 		</header>
 
 		<main>
 			<!-- Discover courses Dection -->
-			<section class="container m-auto mb-10">
+			<section id="courses" class="container m-auto mb-10">
 				<div class="text-center p-3 my-10">
 					<h1 class="font-mono font-semibold text-3xl tracking-wider">Discover Our Popular Courses</h1>
 					<p class="mt-4 text-xl text-gray-600 px-4 font-serif">With the rapid changes in science and technology,
@@ -131,7 +141,7 @@
 			</section>
 
 			<!-- Explore Institute section  -->
-			<section class="container m-auto mb-10">
+			<section id="deals" class="container m-auto mb-10">
 				<div class="grid gap-5 md:flex">
 					<img class=" w-full h-64 md:h-96" src="./assets/working.png" alt="">
 					<div class="grid text-center md:text-start  px-3 mx-5 pt-8">
@@ -176,7 +186,7 @@
 				</div>
 			</section>
 			<!-- successfull students 	 -->
-			<section class="container m-auto mb-10 text-center ">
+			<section class="container m-auto mb-10 text-center" id="success">
 				<h1 class="font-mono font-semibold text-2xl tracking-wider">Meet Our Successfull Students</h1>
 				<p class="pt-3 text-gray-700">Students who have achieved tremendous positions in worldwide companies and startups</p>
 				<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4 tansition-all">
@@ -206,5 +216,15 @@
 				</div>
 			</section>
 		</main>
+		<footer class="bg-darkBackground h-64 text-white text-center pt-10">
+			<h1 class="text-3xl font-bold tracking-wide mb-10">EduInc Ltd.</h1>
+			<p class="text-xl text-slate-400">38/A, Park Street, UrbanDistrict, USA</p>
+			<p class="text-slate-500 ">
+				<span class="hover:text-white">Terms of Use</span> | <span  class="hover:text-white">Privacy Policy</span>
+			</p>
+			<div>
+				<p>icons</p>
+			</div>
+		</footer>
 </body>
 </html>
